@@ -1,6 +1,6 @@
-#include "Ziggy_BaseDeck.res"
+#include "auto-harvest-ziggy-layout.res"
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
-global device ML_STAR ("Ziggy_BaseDeck.lay", "ML_STAR", hslTrue);
+global device ML_STAR ("auto-harvest-ziggy-layout.lay", "ML_STAR", hslTrue);
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{ 2 "TemplateIncludeBlock" ""
  namespace _Method { #include "HSLMETEDLib.hs_" } 
@@ -18,22 +18,22 @@ namespace _Method { method main(  ) void {
 // {{ 2 "AutoInitBlock" ""
 ::RegisterAbortHandler( "OnAbort");
 // }} ""
-// {{ 1 1 0 "893184f6_1db5_42e2_b081f97ffee285bf" "ML_STAR:{1C0C0CB0-7C87-11D3-AD83-0004ACB1DCB2}"
+// {{ 1 1 0 "b5e512fb_7aa9_4bf0_93b03f8aad9eae82" "ML_STAR:{1C0C0CB0-7C87-11D3-AD83-0004ACB1DCB2}"
 {
 	variable arrRetValues[];
-	arrRetValues = ML_STAR._1C0C0CB0_7C87_11D3_AD83_0004ACB1DCB2("893184f6_1db5_42e2_b081f97ffee285bf"); // Initialize
+	arrRetValues = ML_STAR._1C0C0CB0_7C87_11D3_AD83_0004ACB1DCB2("b5e512fb_7aa9_4bf0_93b03f8aad9eae82"); // Initialize
 }
 // }} ""
-// {{ 2 1 0 "341c9a15_eef2_44ae_bf75ebf0939b4d4e" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
+// {{ 2 1 0 "25fe35db_1862_4ae1_b4a0c4a01672bd41" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
 {
 	variable arrRetValues[];
-	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("341c9a15_eef2_44ae_bf75ebf0939b4d4e"); // ZSwapGetPlate
+	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("25fe35db_1862_4ae1_b4a0c4a01672bd41"); // ZSwapGetPlate
 }
 // }} ""
-// {{ 3 1 0 "bccec828_dc6a_421e_8f553ae83160644c" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
+// {{ 3 1 0 "1cdaa595_d680_4ee3_b03f856da00bd0cb" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
 {
 	variable arrRetValues[];
-	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("bccec828_dc6a_421e_8f553ae83160644c"); // ZSwapPlacePlate
+	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("1cdaa595_d680_4ee3_b03f856da00bd0cb"); // ZSwapPlacePlate
 }
 // }} ""
 // {{ 2 "AutoExitBlock" ""
@@ -41,4 +41,4 @@ namespace _Method { method main(  ) void {
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-06 15:00$$checksum=0a2bc5f0$$length=089$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-06 15:51$$checksum=0048ac21$$length=089$$

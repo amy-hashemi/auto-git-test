@@ -1,8 +1,5 @@
-*.med text working-tree-encoding=UTF-8
-*.stp text working-tree-encoding=UTF-8
-*.lay text working-tree-encoding=UTF-8
+*.med text working-tree-encoding=UTF-8 eol=CRLF
+*.stp text working-tree-encoding=UTF-8 eol=CRLF
+*.lay text working-tree-encoding=UTF-8 eol=CRLF
 
-*.med diff
-*.stp diff
-*.lay diff
 
