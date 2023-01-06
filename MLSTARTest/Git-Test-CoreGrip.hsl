@@ -61,9 +61,23 @@ PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
 	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("fe2d66c3_8f96_4833_b9cc685cb38662a1"); // ZSwapPlacePlate
 }
 // }} ""
+// {{ 5 1 0 "d5f6f7ce_d91b_40b1_89cf5e6520dd38cf" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("d5f6f7ce_d91b_40b1_89cf5e6520dd38cf"); // ZSwapGetPlate
+}
+// }} ""
+// {{ 6 1 0 "2b8e413c_7418_4281_9e85118675576d68" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("2b8e413c_7418_4281_9e85118675576d68"); // ZSwapPlacePlate
+}
+// }} ""
 // {{ 2 "AutoExitBlock" ""
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-05 17:57$$checksum=6090ea3f$$length=089$$
+
+$$author=AmyHashemi$$valid=0$$time=2023-01-05 17:57$$checksum=6090ea3f$$length=089$$
+
