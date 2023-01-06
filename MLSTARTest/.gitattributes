@@ -1,3 +1,8 @@
+*.med text working-tree-encoding=UTF-8
+*.stp text working-tree-encoding=UTF-8
+*.lay text working-tree-encoding=UTF-8
+
 *.med diff
 *.stp diff
 *.lay diff
+
