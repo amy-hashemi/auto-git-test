@@ -1,4 +1,5 @@
 #include "auto-harvest-ziggy-layout.res"
+ namespace _Method { #include "mySpecialLibrary.hs_" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 global device ML_STAR ("auto-harvest-ziggy-layout.lay", "ML_STAR", hslTrue);
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
@@ -16,6 +17,7 @@ namespace _Method { method main(  ) void {
 // {{ 5 "main" "InitLocals"
 // }} ""
 // {{ 2 "AutoInitBlock" ""
+MYSPECIALLIBRARY::_InitLibrary();
 ::RegisterAbortHandler( "OnAbort");
 // }} ""
 // {{ 1 1 0 "fe4bb815_3c22_4cc0_9d1fb1a68d5578b0" "ML_STAR:{1C0C0CB0-7C87-11D3-AD83-0004ACB1DCB2}"
@@ -24,33 +26,13 @@ namespace _Method { method main(  ) void {
 	arrRetValues = ML_STAR._1C0C0CB0_7C87_11D3_AD83_0004ACB1DCB2("fe4bb815_3c22_4cc0_9d1fb1a68d5578b0"); // Initialize
 }
 // }} ""
-// {{ 2 1 0 "c625510d_12c9_40e0_b0d3bde3b5d4ac58" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("c625510d_12c9_40e0_b0d3bde3b5d4ac58"); // ZSwapGetPlate
-}
-// }} ""
-// {{ 3 1 0 "3fdffa9e_332d_4c96_833cbf95ef2f83aa" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("3fdffa9e_332d_4c96_833cbf95ef2f83aa"); // ZSwapPlacePlate
-}
-// }} ""
-// {{ 4 1 0 "cecf427c_8c58_4615_9f01b0b6fd77b795" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("cecf427c_8c58_4615_9f01b0b6fd77b795"); // ZSwapGetPlate
-}
-// }} ""
-// {{ 5 1 0 "58a50a04_20f1_4ed2_b996ab7372e169a9" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("58a50a04_20f1_4ed2_b996ab7372e169a9"); // ZSwapPlacePlate
-}
+// {{{ 2 1 0 "a1bdce0b_f1d5_41ac_abfbc2f510c11717" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+MYSPECIALLIBRARY::Sub1(ML_STAR);
 // }} ""
 // {{ 2 "AutoExitBlock" ""
+MYSPECIALLIBRARY::_ExitLibrary();
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-06 17:09$$checksum=9c73b584$$length=089$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-06 17:21$$checksum=524709c4$$length=089$$
