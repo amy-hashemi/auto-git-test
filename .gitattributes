@@ -1,0 +1,5 @@
+
+*.med diff=win1252
+*.stp diff=win1252
+*.lay diff=win1252
+
