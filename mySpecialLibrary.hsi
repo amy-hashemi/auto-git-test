@@ -14,7 +14,6 @@ namespace MYSPECIALLIBRARY {
 // {{{ 2 "SubmethodForwardDeclaration" ""
 function Sub1( device & ML_STAR ) void ;
 function Sub2( device & ML_STAR ) void ;
-function Sub3( device & ML_STAR ) void ;
 // }} ""
 function _InitLibrary() {
 // {{ 2 "AutoInitBlock" ""
@@ -82,31 +81,8 @@ function Sub2( device & ML_STAR ) void {
 // {{{ 5 "Sub2" "End"
 }
 // }} ""
-// {{{ 5 "Sub3" "Begin"
-function Sub3( device & ML_STAR ) void {
-// }} ""
-// {{ 5 "Sub3" "InitLocals"
-// }} ""
-// {{ 9 1 0 "a49f93e7_af99_4484_ae47ca1fa616d908" "ML_STAR:{A108628C-BEB7-4CB6-99FD-8523302C700F}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._A108628C_BEB7_4CB6_99FD_8523302C700F("a49f93e7_af99_4484_ae47ca1fa616d908"); // ZSwapGetPlate
-}
-// }} ""
-// {{ 10 1 0 "2b35fdac_31f7_4d86_88486f233e24f922" "ML_STAR:{9DF3DD4B-3B5E-4750-8989-04458D1B134B}"
-{
-	variable arrRetValues[];
-	arrRetValues = ML_STAR._9DF3DD4B_3B5E_4750_8989_04458D1B134B("2b35fdac_31f7_4d86_88486f233e24f922"); // ZSwapPlacePlate
-}
-// }} ""
-// {{ 11 1 0 "f672fc80_8818_4684_b5e293c5759ae7bd" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
-
-// }} ""
-// {{{ 5 "Sub3" "End"
-}
-// }} ""
 /* {{ 2 "SubmethodInsertLine" "" */ // }} ""
 // {{{ 2 "LibraryNamespace" "End"
 } // library namespace
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-06 17:30$$checksum=7cdfc674$$length=089$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-06 17:34$$checksum=1298a000$$length=089$$
