@@ -1,5 +1,4 @@
 // {{{ 2 "SubmethodForwardDeclaration" ""
-private function my_test_submethod( device & ML_STAR ) void ;
 function OnAbort(  ) void ;
 // }} ""
 // {{{ 5 "OnAbort" "Begin"
@@ -10,16 +9,5 @@ function OnAbort(  ) void {
 // {{{ 5 "OnAbort" "End"
 }
 // }} ""
-// {{{ 5 "my_test_submethod" "Begin"
-private function my_test_submethod( device & ML_STAR ) void {
-// }} ""
-// {{ 5 "my_test_submethod" "InitLocals"
-// }} ""
-// {{ 8 1 0 "b4973acc_c3f8_406f_b4508407c19ad1b7" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
-
-// }} ""
-// {{{ 5 "my_test_submethod" "End"
-}
-// }} ""
 /* {{ 2 "SubmethodInsertLine" "" */ // }} ""
-// $$author=RoshanNoronha$$valid=0$$time=2023-01-11 14:01$$checksum=071ce647$$length=092$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-11 11:45$$checksum=04756051$$length=089$$
