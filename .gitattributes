@@ -1,5 +1,5 @@
 
-*.med diff
-*.stp diff
-*.lay diff
+*.med diff working-tree-encoding=UTF-8 eol=CRLF
+*.stp diff working-tree-encoding=UTF-8 eol=CRLF
+*.lay diff working-tree-encoding=UTF-8 eol=CRLF
 
