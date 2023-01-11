@@ -2,6 +2,7 @@
  namespace _Method { #include "mySpecialLibrary.hs_" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 global device ML_STAR ("auto-harvest-ziggy-layout.lay", "ML_STAR", hslTrue);
+variable g;
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{ 2 "TemplateIncludeBlock" ""
  namespace _Method { #include "HSLMETEDLib.hs_" } 
@@ -29,10 +30,19 @@ MYSPECIALLIBRARY::_InitLibrary();
 // {{{ 2 1 0 "f2906e9e_d515_42cc_98a2b1166288f414" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 MYSPECIALLIBRARY::Sub1(ML_STAR);
 // }} ""
+// {{ 3 1 0 "56fef3fc_533f_41d7_9c624f515b9e908c" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 4 1 0 "cffdc869_40b3_4094_ac9e641662c65a52" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+g = 1;
+// }} ""
+// {{ 5 1 0 "ab06eafc_e76e_4c66_a3d8404124fcbd4d" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+g = g + 4;
+// }} ""
 // {{ 2 "AutoExitBlock" ""
 MYSPECIALLIBRARY::_ExitLibrary();
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-09 15:25$$checksum=274531fa$$length=089$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-11 09:46$$checksum=6404e573$$length=089$$
