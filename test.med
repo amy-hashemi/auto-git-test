@@ -188,6 +188,41 @@ DataDef,HxPars,3,cffdc869_40b3_4094_ac9e641662c65a52,
 ")"
 ];
 
+DataDef,HxPars,3,d303423c_6b99_4a69_9fc5f9e8a4576c4b,
+[
+"3Expression",
+"6",
+"1Result",
+"a",
+"3ParsCommandVersion",
+"1",
+"(BlockData",
+"(1",
+"1-533921780",
+"'a' = '6'",
+"1-533921781",
+"Assignment",
+"1-533921782",
+"Assignment.bmp",
+"1-533921779",
+"a = 6;",
+")",
+")",
+"1Timestamp",
+"2023-01-11 09:54:13",
+"(Variables",
+"(-534118398",
+"(a",
+"(0",
+"10",
+"Result",
+")",
+")",
+")",
+")",
+")"
+];
+
 DataDef,HxPars,3,f2906e9e_d515_42cc_98a2b1166288f414,
 [
 "1ReturnValue",
@@ -274,4 +309,4 @@ DataDef,HxPars,3,fe4bb815_3c22_4cc0_9d1fb1a68d5578b0,
 ")"
 ];
 
-* $$author=AmyHashemi$$valid=0$$time=2023-01-11 09:47$$checksum=ba43bf02$$length=086$$
+* $$author=AmyHashemi$$valid=0$$time=2023-01-11 09:54$$checksum=b16eda60$$length=086$$

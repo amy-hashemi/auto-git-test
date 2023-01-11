@@ -3,6 +3,7 @@
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 global device ML_STAR ("auto-harvest-ziggy-layout.lay", "ML_STAR", hslTrue);
 variable g;
+variable a;
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{ 2 "TemplateIncludeBlock" ""
  namespace _Method { #include "HSLMETEDLib.hs_" } 
@@ -39,10 +40,13 @@ g = 1;
 // {{ 5 1 0 "ab06eafc_e76e_4c66_a3d8404124fcbd4d" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
 g = g + 4;
 // }} ""
+// {{ 6 1 0 "d303423c_6b99_4a69_9fc5f9e8a4576c4b" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+a = 6;
+// }} ""
 // {{ 2 "AutoExitBlock" ""
 MYSPECIALLIBRARY::_ExitLibrary();
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=AmyHashemi$$valid=0$$time=2023-01-11 09:46$$checksum=6404e573$$length=089$$
+// $$author=AmyHashemi$$valid=0$$time=2023-01-11 09:54$$checksum=7efb28c2$$length=089$$
