@@ -34,17 +34,10 @@ MYSPECIALLIBRARY::Sub2(ML_STAR);
 // {{ 3 1 0 "56fef3fc_533f_41d7_9c624f515b9e908c" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
-// {{ 4 1 0 "076f6c17_9f04_4861_933f57a9751c5a11" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
-// }} ""
-// {{ 5 1 0 "cffdc869_40b3_4094_ac9e641662c65a52" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
-g = 1;
-// }} ""
-// {{ 6 1 0 "43b90522_6e67_4769_a793b2eccf9e76ac" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
-g = g + 10;
-// }} ""
-// {{ 7 1 0 "d303423c_6b99_4a69_9fc5f9e8a4576c4b" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
-a = 6;
+// {{ 4 1 0 "4322e0fe_11f0_44be_b0411565632cac5b" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+g = 200;
+
 // }} ""
 // {{ 8 1 0 "639270f1_b1cb_49ff_a444c72e7eb1ba8a" "ML_STAR:{BD0D210B-0816-4C86-A903-D6B2DF73F78B}"
 {
@@ -79,4 +72,6 @@ MYSPECIALLIBRARY::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=RoshanNoronha$$valid=0$$time=2023-01-11 14:42$$checksum=7c4905e4$$length=092$$
+
+// $$author=AmyHashemi$$valid=0$$time=2023-01-11 16:19$$checksum=d90ea583$$length=089$$
+
